@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Workout Music Recommendations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="text-align:center">
+        <h1>Workout Type and Activity Level</h1>
+    </div>
+    <form style=text-align:center; action="/action_page.php">
+        <label for="workouts">Choose a workout:</label>
+        <select id="intensity" name="intensity">
+            <option value="cardio">Cardio</option>
+            <option value="s&t">Strength and Training</option>
+            <option value="f&s">Flexibility and Stretching</option>      
+        </select>
+    </form>
+    <form style=text-align:center; action="/action_page.php">
+        <label for="intensity">Choose an intensity for your workout:</label>
+        <select id="intensity" name=" intensity ">
+            <option value="moderate">Moderate</option>
+            <option value="high">High</option>      
+        </select>
+        <div style=text-align:center; id="button "><a href="http://localhost:5000/">Enter</a></div>
+    </form>
+    <center><img src="Memes-Main-Image.jpeg" alt="doggo"></center>
+</body>
+
+</html>
